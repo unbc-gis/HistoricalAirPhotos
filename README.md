@@ -34,10 +34,10 @@ Ensure you have version 1.8.1 as a minimum before proceeding, version 1.7.x was 
 
 -   Mask Photos
 
-    -   In the photos panel (if not visible: View \> Photos), enable show masks to make it easier to track progress \
+    -   In the photos panel (if not visible: View \> Photos), enable show masks to make it easier to track progress\
         ![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-24E6221D.png)
 
-    -   Select the photo area using the selection tools, it is important that the fiducials be completely removed. The Rectangle is the fast way, the Intelligent Scissors will preserve more photo in some cases (see example below). \
+    -   Select the photo area using the selection tools, it is important that the fiducials be completely removed. The Rectangle is the fast way, the Intelligent Scissors will preserve more photo in some cases (see example below).\
         ![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-C1591BAD.png)
 
     -   Right Click inside the selected area and "Invert Selection"\
@@ -56,7 +56,7 @@ Ensure you have version 1.8.1 as a minimum before proceeding, version 1.7.x was 
 
     -   To check results enable the basemap\
         ![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-B9F59A75.png)\
-        We want to find an alignment where the blue camera is above the photos, and relatively close to the surface. \
+        We want to find an alignment where the blue camera is above the photos, and relatively close to the surface.\
         \
         Bad Alignment (Cameras below point cloud):\
         ![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-A46E2D71.png)\
@@ -134,5 +134,5 @@ Due to the poor quality of the GPS (and off axis alignment) the exported TIFF is
 
         -   If it does not align well and there is no obvious quick fix (ie remove a couple particularly far points, or add a point to an edge that had none detects) the best course of action is to delete all control points and perform the manual georeference process. The tightly packed control points of auto can cause strange warping when combined with manual points.
 
--   Finish Up: After you save your referenced changes right click on the TIFF in catalog and build pyramids and calculate statistics to provide optimal performance when sharing imagery. \
+-   Finish Up: After you save your referenced changes right click on the TIFF in catalog and build pyramids and calculate statistics to provide optimal performance when sharing imagery.\
     ![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-859FB561.png)
