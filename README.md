@@ -35,35 +35,35 @@ Ensure you have version 1.8.1 as a minimum before proceeding, version 1.7.x was 
 -   Mask Photos
 
     -   In the photos panel (if not visible: View \> Photos), enable show masks to make it easier to track progress \
-        ![](C:/Users/Matt/AppData/Local/RStudio/tmp/paste-24E6221D.png)
+        ![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-24E6221D.png)
 
     -   Select the photo area using the selection tools, it is important that the fiducials be completely removed. The Rectangle is the fast way, the Intelligent Scissors will preserve more photo in some cases (see example below). \
-        ![](C:/Users/Matt/AppData/Local/RStudio/tmp/paste-C1591BAD.png)
+        ![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-C1591BAD.png)
 
     -   Right Click inside the selected area and "Invert Selection"\
-        ![](C:/Users/Matt/AppData/Local/RStudio/tmp/paste-4FEC6686.png)
+        ![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-4FEC6686.png)
 
     -   Right Click in the new selected area, and "Add Selection"\
-        ![](C:/Users/Matt/AppData/Local/RStudio/tmp/paste-CE5EBC40.png)
+        ![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-CE5EBC40.png)
 
     -   You should now see a mask with the photo in white, repeat for all photos.\
-        ![](C:/Users/Matt/AppData/Local/RStudio/tmp/paste-09EA5BF0.png)
+        ![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-09EA5BF0.png)
 
 -   Align Photos
 
     -   Start a Medium Accuracy, with these photo-sets a higher setting is not necessarily better. If you need to run again Make sure to select Reset current alignment on subsequent runs. Additionally under Advanced increase the Key point and Tie point limits\
-        ![](C:/Users/Matt/AppData/Local/RStudio/tmp/paste-D7C3196B.png)
+        ![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-D7C3196B.png)
 
     -   To check results enable the basemap\
-        ![](C:/Users/Matt/AppData/Local/RStudio/tmp/paste-B9F59A75.png)\
+        ![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-B9F59A75.png)\
         We want to find an alignment where the blue camera is above the photos, and relatively close to the surface. \
         \
         Bad Alignment (Cameras below point cloud):\
-        ![](C:/Users/Matt/AppData/Local/RStudio/tmp/paste-A46E2D71.png)\
+        ![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-A46E2D71.png)\
         Bad Alignment (Alignment off Axis):\
-        ![](C:/Users/Matt/AppData/Local/RStudio/tmp/paste-68043A63.png)\
+        ![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-68043A63.png)\
         Acceptable (Still a little off Axis but likely as good as it will get):\
-        ![](C:/Users/Matt/AppData/Local/RStudio/tmp/paste-CDBCE175.png)
+        ![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-CDBCE175.png)
 
 -   Build Dense Cloud
 
@@ -82,20 +82,20 @@ Ensure you have version 1.8.1 as a minimum before proceeding, version 1.7.x was 
     -   Pick a projected coordinate reference system otherwise defaults are good. (If you are planning to share via web map such as <https://arc.gis.unbc.ca> use EPSG:3857 (Pseudo Web Mercator).
 
     -   If the Alignment and Filtering were successful the output should have crisp edges:\
-        ![](C:/Users/Matt/AppData/Local/RStudio/tmp/paste-DD81BAC6.png)
+        ![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-DD81BAC6.png)
 
 -   Build Orthomosaic
 
     -   Default settings are good, export as TIFF make sure Alpha channel is enabled.\
-        ![](C:/Users/Matt/AppData/Local/RStudio/tmp/paste-8FA1A547.png)
+        ![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-8FA1A547.png)
 
 ## Georeference output
 
 Due to the poor quality of the GPS (and off axis alignment) the exported TIFF is close to the correct location but not quite right. This can be done in either QGIS or ArcGIS Pro, ArcGIS Pro is recommended for it's ease of use and generally better compatibility with the exports from Metashape (QGIS is more likely to understand the CRS, ArcGIS is more likely to render correctly, the CRS is easier to correct).
 
 -   [***Before***]{.ul} adding the image to an ArcGIS Pro Map, navigate to the file in the catalog pane, right click for properties, click the globe by Spatial Reference, and set it to the same EPSG code you used in Metashape.\
-    ![](C:/Users/Matt/AppData/Local/RStudio/tmp/paste-183AD94C.png)\
-    ![](C:/Users/Matt/AppData/Local/RStudio/tmp/paste-A32BE5E0.png)
+    ![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-183AD94C.png)\
+    ![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-A32BE5E0.png)
 
 -   Set the base map to imagery
 
@@ -107,22 +107,22 @@ Due to the poor quality of the GPS (and off axis alignment) the exported TIFF is
 
             -   Bridges are a good target as they are easy to spot and generally do not move
 
-        -   Good Control Point Layout![](C:/Users/Matt/AppData/Local/RStudio/tmp/paste-9E6D8E0E.png)\
+        -   Good Control Point Layout![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-9E6D8E0E.png)\
 
         -   Misplaced Control Point:\
             If there is a misplaced point, it should be removed, this image is identical to the one above except with an extra poorly placed point, notice how you can now see green targets as the alignment could not pull points to their proper place the Ground Control Point Table allows you to toggle points on and off to troubleshoot alignment issues.\
-            ![](C:/Users/Matt/AppData/Local/RStudio/tmp/paste-FF6ABA82.png)\
-            ![](C:/Users/Matt/AppData/Local/RStudio/tmp/paste-E3EABFBD.png)
+            ![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-FF6ABA82.png)\
+            ![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-E3EABFBD.png)
 
         -   Under Transformation Try both "Spline" (option not available until you have 10 GCPs) and "Adjust"
 
             -   A great way to check quality is to set the orthomsaic to 50% and look for ghosting on roads\
                 \
                 Good:\
-                ![](C:/Users/Matt/AppData/Local/RStudio/tmp/paste-EE018491.png)\
+                ![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-EE018491.png)\
                 \
                 Bad:\
-                ![](C:/Users/Matt/AppData/Local/RStudio/tmp/paste-B15DBF2E.png)
+                ![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-B15DBF2E.png)
 
         -   If the preview looks good, press Save to overwrite the file
 
@@ -135,4 +135,4 @@ Due to the poor quality of the GPS (and off axis alignment) the exported TIFF is
         -   If it does not align well and there is no obvious quick fix (ie remove a couple particularly far points, or add a point to an edge that had none detects) the best course of action is to delete all control points and perform the manual georeference process. The tightly packed control points of auto can cause strange warping when combined with manual points.
 
 -   Finish Up: After you save your referenced changes right click on the TIFF in catalog and build pyramids and calculate statistics to provide optimal performance when sharing imagery. \
-    ![](C:/Users/Matt/AppData/Local/RStudio/tmp/paste-859FB561.png)
+    ![](https://raw.githubusercontent.com/unbc-gis/HistoricalAirPhotos/main/screenshots/paste-859FB561.png)
