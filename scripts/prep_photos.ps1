@@ -37,21 +37,21 @@ foreach ($file in $photos){
         echo "$lat, $lon"
 
         # EXIF standard requires DMS Coordinates no negitive values
-        if ([int]$lat -gt 0) {
+        if ($lat -gt 0) {
             $hemisphere = "N"
         }else {
-            $meridian = "S"
+            $hemisphere = "S"
             $lat = $lat.Substring(1)
         }
 
-        if ($lon > 0) {
+        if ($lon -gt 0) {
             $meridian = "E"
         }
         else {
             $meridian = "W"
             $lon = $lon.Substring(1)
         } 
-        echo "$lat$hemisphhere, $lon$meridian, $alt m"
+        echo "$lat$hemisphere, $lon$meridian, $alt m"
 
         Start-Process -FilePath $exifTool -ArgumentList "-GPSLongitudeRef=$meridian -GPSLongitude=$lon -GPSLatitudeRef=$hemisphere -GPSLatitude=$lat -GPSAltitude=$alt -overwrite_original ""$path\$file"""
     }
