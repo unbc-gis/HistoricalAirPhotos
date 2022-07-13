@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<MesureAppuiFlottant1Im>
+     <NameIm>Glob</NameIm>
+     <OneMesureAF1I>
+          <NamePt>P1</NamePt>
+          <PtIm>1.0040  226.9950</PtIm>
+     </OneMesureAF1I>
+     <OneMesureAF1I>
+          <NamePt>P2</NamePt>
+          <PtIm>226.9920    0.9960</PtIm>
+     </OneMesureAF1I>
+     <OneMesureAF1I>
+          <NamePt>P3</NamePt>
+          <PtIm>0.9960    1.0070</PtIm>
+     </OneMesureAF1I>
+     <OneMesureAF1I>
+          <NamePt>P4</NamePt>
+          <PtIm>226.9930  226.9950</PtIm>
+     </OneMesureAF1I>
+     <OneMesureAF1I>
+          <NamePt>P5</NamePt>
+          <PtIm>0.9940  114.0040</PtIm>
+     </OneMesureAF1I>
+     <OneMesureAF1I>
+          <NamePt>P6</NamePt>
+          <PtIm>226.9980  113.9940</PtIm>
+     </OneMesureAF1I>
+     <OneMesureAF1I>
+          <NamePt>P7</NamePt>
+          <PtIm>114.0000    1.0060</PtIm>
+     </OneMesureAF1I>
+     <OneMesureAF1I>
+          <NamePt>P8</NamePt>
+          <PtIm>113.9950  227.0140</PtIm>
+     </OneMesureAF1I>
+</MesureAppuiFlottant1Im>

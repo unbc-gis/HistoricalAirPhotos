@@ -1,0 +1,38 @@
+<Global>
+  <ChantierDescripteur >
+
+    <!-- Define a camera model (name and sensor/film size) -->
+    <LocCamDataBase>
+        <CameraEntry>
+              <Name> WildRC20  </Name>
+              <SzCaptMm>  220.033 220.005  </SzCaptMm> <!-- MidSideFiducials or "MaxFidX-MinFidX MaxFidY-MinFidY"-->
+              <ShortName> WildRC20 </ShortName>
+         </CameraEntry>
+    </LocCamDataBase>
+
+    <!-- Associate images to a camera model -->
+    <KeyedNamesAssociations>
+            <Calcs>
+                 <Arrite>  1 1 </Arrite>
+                 <Direct>
+                       <PatternTransform> .*  </PatternTransform> <!-- Regular expressions of the group of images with the following camera model -->
+                       <CalcName> WildRC20 </CalcName> <!-- Name of the camera for these images -->
+                 </Direct>
+             </Calcs>
+             <Key>   NKS-Assoc-STD-CAM </Key>
+    </KeyedNamesAssociations>
+	
+    <!-- Associate images to a focal length -->
+    <KeyedNamesAssociations>
+            <Calcs>
+                 <Arrite>  1 1 </Arrite>
+                 <Direct>
+                       <PatternTransform> .*  </PatternTransform> <!-- Regular expressions of the group of images with the following focal length -->
+                       <CalcName> 153.664 </CalcName>	<!-- See calibration report -->
+                 </Direct>
+             </Calcs>
+             <Key>   NKS-Assoc-STD-FOC  </Key>
+    </KeyedNamesAssociations>
+	
+  </ChantierDescripteur>
+</Global>
