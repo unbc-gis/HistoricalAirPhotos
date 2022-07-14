@@ -1,0 +1,6 @@
+Exit with code 1 
+Generated from line 205  of file C:\projects\micmac-uct71\src\util\error.cpp 
+PID=21412
+Context=[cEliseFatalErrorHandler::cEFEH_OnErreur]
+GMEC:mes=No image found line=95 file=C:\projects\micmac-uct71\src\uti_phgrm\CPP_SaisieAppuisInit.cpp
+MM3D-Command=["C:/micmac_win/bin/SaisieQT" "SaisieAppuisInitQT" "C:\Users\lande\Desktop\Thesis\ortho_tests\15BCC02013\Test_images.*jpg" "NONE" "id_fiducial.txt" "MeasuresIm-image.jpg.xml" ]

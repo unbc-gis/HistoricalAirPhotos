@@ -1,0 +1,4 @@
+Exit with code -1 
+Generated from line 1026  of file C:\projects\micmac-uct71\src\util\arg_main.cpp 
+PID=1212
+Context=[System-call :"C:/micmac_win/bin/SaisieQT" SaisieAppuisInitQT "C:\Users\lande\Desktop\Thesis\ortho_tests\15BCC02013\Test_images.*jpg" "NONE" "id_fiducial.txt" "MeasuresIm-image.jpg.xml"]

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<SetOfMesureAppuisFlottants>
+     <MesureAppuiFlottant1Im>
+          <NameIm>15BCC02013_130.jpg</NameIm>
+          <OneMesureAF1I>
+               <NamePt>P1</NamePt>
+               <PtIm>5680.74890858104391 5134.89269196657551</PtIm>
+          </OneMesureAF1I>
+          <OneMesureAF1I>
+               <NamePt>P2</NamePt>
+               <PtIm>663.571729740742057 5138.16704419332109</PtIm>
+          </OneMesureAF1I>
+          <OneMesureAF1I>
+               <NamePt>P3</NamePt>
+               <PtIm>652.454356840431615 126.966781698970408</PtIm>
+          </OneMesureAF1I>
+          <OneMesureAF1I>
+               <NamePt>P4</NamePt>
+               <PtIm>5671.20219004505725 121.734175224743012</PtIm>
+          </OneMesureAF1I>
+     </MesureAppuiFlottant1Im>
+</SetOfMesureAppuisFlottants>

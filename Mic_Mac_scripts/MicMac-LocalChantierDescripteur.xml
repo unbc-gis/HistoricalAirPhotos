@@ -15,7 +15,7 @@
             <Calcs>
                  <Arrite>  1 1 </Arrite>
                  <Direct>
-                       <PatternTransform> .*  </PatternTransform> <!-- Regular expressions of the group of images with the following camera model -->
+                       <PatternTransform> C:\Users\lande\Desktop\Thesis\ortho_tests\15BCC02013\Test_images\.*  </PatternTransform> <!-- Regular expressions of the group of images with the following camera model -->
                        <CalcName> WildRC20 </CalcName> <!-- Name of the camera for these images -->
                  </Direct>
              </Calcs>
@@ -27,7 +27,7 @@
             <Calcs>
                  <Arrite>  1 1 </Arrite>
                  <Direct>
-                       <PatternTransform> .*  </PatternTransform> <!-- Regular expressions of the group of images with the following focal length -->
+                       <PatternTransform> C:\Users\lande\Desktop\Thesis\ortho_tests\15BCC02013\Test_images\.*  </PatternTransform> <!-- Regular expressions of the group of images with the following focal length -->
                        <CalcName> 153.664 </CalcName>	<!-- See calibration report -->
                  </Direct>
              </Calcs>
