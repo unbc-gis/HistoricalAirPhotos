@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<DicoAppuisFlottant>
+     <OneAppuisDAF>
+          <Pt>5960596.35300000012 87240.5284399999946 5944</Pt>
+          <NamePt>GCP1</NamePt>
+          <Incertitude>1 1 1</Incertitude>
+     </OneAppuisDAF>
+     <OneAppuisDAF>
+          <Pt>5955375.41000000015 88330.4411600000021 5944</Pt>
+          <NamePt>GCP2</NamePt>
+          <Incertitude>1 1 1</Incertitude>
+     </OneAppuisDAF>
+     <OneAppuisDAF>
+          <Pt>5955262.81799999997 91371.3138400000025 5944</Pt>
+          <NamePt>GCP3</NamePt>
+          <Incertitude>1 1 1</Incertitude>
+     </OneAppuisDAF>
+</DicoAppuisFlottant>
